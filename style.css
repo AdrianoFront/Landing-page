@@ -1,11 +1,24 @@
 body {
   font-family: "Roboto", sans-serif;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
 }
 h1 {
-  color: #fff; 
+  color: #fff;
+  font-weight: bold;
 }
+
+p {
+  font-size: 14px;
+}
+
 header {
   display: flex;
+  color: white;
   background: url("https://i.ibb.co/dftJ3Fq/exam-cat.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,22 +26,56 @@ header {
   align-items: flex-end;
   justify-content: flex-end;
   flex-direction: column;
-  padding-right: 9px;
+  padding-right: 15px;
 }
 
-.information{
-display: flex;
-align-items: center;
-justify-content: center;]
+.information {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  width: 14em;
+  word-wrap: break-word;
 }
 
-.button-interation{
-display: flex;
-align-items: center;
-justify-content: center;
+.button-interation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 .doc-cat {
   max-width: 100%;
+}
+
+.cat-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.cat-galery {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.cat-white {
+  max-width: 120px;
+}
+
+.grumpy {
+  max-width: 120px;
+}
+
+.remedy {
+  max-width: 85px;
+}
+
+.vet-cat {
+  max-width: 120px;
+}
+
+@media (max-width: 560px) {
 }
