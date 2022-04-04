@@ -1,6 +1,6 @@
 # Landing-page
 
-Página de captura para uma clínica prestadora de atendimento veterinário exclusivo para gatos.
+Página de captura para uma clínica prestadora de atendimento veterinário exclusiva para gatos.
 
 Para navegar use este link:
 https://adrianofront.github.io/Landing-page/
